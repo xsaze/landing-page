@@ -1,0 +1,212 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {/* */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0px 152px;
+}
+
+.header ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.hero {/* */
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    padding: 100px 152px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.shop-button {
+    background-color:#3881f6;
+    border-radius:28px;
+    border:1px solid #1954ab;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283766;
+    margin: 16px;
+}
+.shop-button:hover {
+    background-color:#7fa4e3;
+}
+.shop-button:active {
+        position:relative;
+        top:1px;
+}
+
+
+.hero-c2 {
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.hero-image img {
+    max-height: 280px;
+    width: auto;
+}
+
+.content {/* */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px;
+    gap: 22px;
+}
+
+.content .content-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.content-c {
+    display: flex;
+    justify-content: center;
+    gap: 32px
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 185px;
+    color: #1F2937;
+    gap: 10px;
+}
+
+.item img {
+    max-height: 185px;
+    width: auto;
+    
+}
+
+.content-c {
+    display: flex;
+    gap: 22px;
+}
+
+.motivational {/* */
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:144px;
+}
+
+.motivational-text:nth-of-type(1) {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+}
+.motivational-text:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 32px;
+    align-self: flex-end;
+}
+
+.shop-reminder {/* */
+    display: flex;
+    padding: 124px 0px;
+    background-color: #3882F6;
+    justify-content: center;
+    background-clip: content-box;
+    flex-basis: 100px;
+    align-items: center;
+    
+
+}
+
+.reminder-text {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-style:oblique;
+
+}
+
+.shop-button2 {
+    background-color:#3881f6;
+    border-radius:28px;
+    border:3px solid #FFFFFF;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283766;
+    margin: 16px;
+}
+.shop-button2:hover {
+    background-color:#7fa4e3;
+}
+.shop-button2:active {
+        position:relative;
+        top:1px;
+}
+
+.footer {/* */
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    flex-basis: 45px;
+    align-items: center;
+}
+
+a:link {
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
